@@ -1,0 +1,232 @@
+body{
+    background-color: #E5E5E5;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h5{
+    font-family: 'Playfair Display', serif;
+}
+
+.header > ul{
+    list-style-type: none;
+    float: right;
+}
+
+.header > ul li{
+    display: inline;
+}
+
+.header > ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 0 30px 0 10px;
+}
+
+.header > h5{
+    display: inline-block;
+    padding: 0 0 0 120px;
+}
+
+.intro{
+    padding: 0rem 7rem;
+    width: 35%;
+}
+
+.intro-title {
+    font-size: 64px;
+}
+
+.intro-text{
+    font-weight: normal;
+    color: #828282;
+    font-size: 24px;
+}
+
+.BtnProjects{
+    background-color: #FDC435;
+    text-align: center;
+    border: solid #FDC435 ;
+    border-radius: 8px;
+    width: 115px;
+    height: 43px;
+}
+
+.BtnLinkedIn{
+    text-align: center;
+    border: 2px solid #25282B;
+    border-radius: 8px;
+    width: 117px;
+    height: 43px;
+    margin-left: 12px;
+}
+
+.main-projects {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-project-body {
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+}
+
+hr{
+    color: #FDC435;
+    width: 3rem;
+}
+
+/* Project 1 Tiles */
+
+.project-1 {
+    display: flex;
+    height: 20rem;
+    width: 100%;
+    padding-top: 5rem;
+}
+
+.left-side {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 100%;
+    border-radius: 24px 0px 0px 24px;
+}
+
+.right-side {
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 24px 24px 0px;
+}
+
+.prj1-title{
+    padding: 90px 0 0 50px;
+}
+
+.prj1-info{
+    padding: 0 0 0 50px;
+    width: 65%;
+}
+
+.prj1-btn{
+    margin: 0 0 0 50px;
+    border: solid black;
+    border-radius: 2rem;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* Project 2 Tiles */
+
+.project-2 {
+    display: flex;
+    height: 20rem;
+    width: 100%;
+    padding-top: 5rem;
+}
+ 
+.left-side2 {
+    width: 50%;
+    height: 100%;
+    border-radius: 24px 0px 0px 24px;
+}
+
+.right-side2 {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 24px 24px 0px;
+}
+
+.prj2-title{
+    padding: 90px 0 0 50px;
+}
+
+.prj2-info{
+    padding: 0 0 0 50px;
+    width: 65%;
+}
+
+.prj2-btn{
+    margin: 0 0 0 50px;
+    border: solid black;
+    border-radius: 2rem;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* Project 3 Tiles */
+
+.project-3 {
+    display: flex;
+    height: 20rem;
+    width: 100%;
+    padding-top: 5rem;
+}
+
+.left-side3 {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 100%;
+    border-radius: 24px 0px 0px 24px;
+}
+
+.right-side3 {
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 24px 24px 0px;
+}
+
+.prj3-title{
+    padding: 90px 0 0 50px;
+}
+
+.prj3-info{
+    padding: 0 0 0 50px;
+    width: 65%;
+}
+
+.prj3-btn{
+    margin: 0 0 0 50px;
+    border: solid black;
+    border-radius: 2rem;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* footer */
+
+.footer{
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .socials > .socail-insta{
+    padding: 0 30px 0 30px;
+    margin-bottom: 5px;
+}
+
+.socials > .socail-mail{
+    height: 100%;
+    margin-bottom: 8px;
+} */
+
+.socials {
+    display: flex;
+}
+
+.socials > img {
+    padding: 0px 24px;
+}
+
+.footer-name{
+    padding-top: 32px;
+    font-size: 16px;
+    color: #828282;
+}
+
