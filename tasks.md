@@ -1,4 +1,12 @@
-## Things that need fixing
+# Tasks to do:
+- DEPLOY THIS SITE TO NETLIFY
+- BUY A CUSTOM DOMAIN (zahidqadus.co.uk)
+- APPLY THE CUSTOM DOMAIN TO NETLIFY SETUP
+- REBUILD AND REDEPLOY ON `git push origin main`
+
+<br>
+
+# CSS that needs fixing
 
 - `Zahid Qadus` in the header
     - Should have font size of 18px ❌
