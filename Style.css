@@ -9,29 +9,39 @@ h1, h2, h5{
     font-family: 'Playfair Display', serif;
 }
 
-.header > ul{
-    list-style-type: none;
+nav{
     float: right;
 }
 
-.header > ul li{
+nav ul li{
     display: inline;
 }
 
-.header > ul li a{
+nav ul li a{
     color: black;
     text-decoration: none;
     padding: 0 30px 0 10px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .header > h5{
     display: inline-block;
     padding: 0 0 0 120px;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
 }
 
 .intro{
     padding: 0rem 7rem;
     width: 35%;
+}
+
+.intro-span{
+    color: #FDC435;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
 }
 
 .intro-title {
@@ -51,6 +61,8 @@ h1, h2, h5{
     border-radius: 8px;
     width: 115px;
     height: 43px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .BtnLinkedIn{
@@ -60,6 +72,8 @@ h1, h2, h5{
     width: 117px;
     height: 43px;
     margin-left: 12px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-projects {
@@ -75,9 +89,14 @@ h1, h2, h5{
     padding-top: 8rem;
 }
 
+.main-protects-title{
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+}
+
 hr{
     color: #FDC435;
-    width: 3rem;
+    width: 100px;
 }
 
 .projects-title-underline {
@@ -112,19 +131,24 @@ hr{
 
 .prj1-title{
     padding: 90px 0 0 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
 }
 
 .prj1-info{
     padding: 0 0 0 50px;
     width: 65%;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .prj1-btn{
     margin: 0 0 0 50px;
     border: solid black;
-    border-radius: 2rem;
-    font-size: 18px;
+    border-radius: 24px;
     padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Project 2 Tiles */
@@ -151,19 +175,24 @@ hr{
 
 .prj2-title{
     padding: 90px 0 0 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
 }
 
 .prj2-info{
     padding: 0 0 0 50px;
     width: 65%;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .prj2-btn{
     margin: 0 0 0 50px;
     border: solid black;
-    border-radius: 2rem;
+    border-radius: 24px;
     font-size: 18px;
     padding: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Project 3 Tiles */
@@ -190,19 +219,24 @@ hr{
 
 .prj3-title{
     padding: 90px 0 0 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
 }
 
 .prj3-info{
     padding: 0 0 0 50px;
     width: 65%;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .prj3-btn{
     margin: 0 0 0 50px;
     border: solid black;
-    border-radius: 2rem;
+    border-radius: 24px;
     font-size: 18px;
     padding: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* footer */
@@ -213,16 +247,6 @@ hr{
     flex-direction: column;
     align-items: center;
 }
-
-/* .socials > .socail-insta{
-    padding: 0 30px 0 30px;
-    margin-bottom: 5px;
-}
-
-.socials > .socail-mail{
-    height: 100%;
-    margin-bottom: 8px;
-} */
 
 .socials {
     display: flex;
@@ -237,4 +261,3 @@ hr{
     font-size: 16px;
     color: #828282;
 }
-
