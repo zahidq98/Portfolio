@@ -25,15 +25,20 @@ nav ul li a{
     font-family: 'Raleway', sans-serif;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .header > h5{
-    display: inline-block;
-    padding: 0 0 0 120px;
     font-size: 18px;
     font-family: 'Comfortaa', cursive;
+    padding-left: 7rem;
 }
 
 .intro{
-    padding: 0rem 7rem;
+    padding: 3rem 7rem;
     width: 35%;
 }
 
@@ -46,12 +51,17 @@ nav ul li a{
 
 .intro-title {
     font-size: 64px;
+    margin: 0;
+    padding: 1rem 0;
 }
 
 .intro-text{
     font-weight: normal;
     color: #828282;
     font-size: 24px;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 .BtnProjects{
@@ -89,9 +99,11 @@ nav ul li a{
     padding-top: 8rem;
 }
 
-.main-protects-title{
+.main-projects-title{
     font-size: 48px;
     font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding-bottom: 0.5rem;
 }
 
 hr{
@@ -111,16 +123,22 @@ hr{
 
 .project-1 {
     display: flex;
-    height: 20rem;
+    height: 30rem;
     width: 100%;
     padding-top: 5rem;
 }
 
-.left-side {
+.left-side-container {
     background-color: rgb(255, 255, 255);
-    width: 50%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-radius: 24px 0px 0px 24px;
+}
+
+.left-side {
+    width: 80%;
 }
 
 .right-side {
@@ -130,20 +148,17 @@ hr{
 }
 
 .prj1-title{
-    padding: 90px 0 0 50px;
     font-family: 'Playfair Display', serif;
     font-size: 40px;
 }
 
 .prj1-info{
-    padding: 0 0 0 50px;
     width: 65%;
     font-size: 18px;
     font-family: 'Nunito', sans-serif;
 }
 
 .prj1-btn{
-    margin: 0 0 0 50px;
     border: solid black;
     border-radius: 24px;
     padding: 10px;
@@ -155,39 +170,36 @@ hr{
 
 .project-2 {
     display: flex;
-    height: 20rem;
+    height: 30rem;
     width: 100%;
     padding-top: 5rem;
 }
- 
-.left-side2 {
-    width: 50%;
-    height: 100%;
-    border-radius: 24px 0px 0px 24px;
+
+.right-side2-container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .right-side2 {
     background-color: rgb(255, 255, 255);
-    width: 50%;
-    height: 100%;
+    width: 70%;
     border-radius: 0px 24px 24px 0px;
 }
 
 .prj2-title{
-    padding: 90px 0 0 50px;
     font-family: 'Playfair Display', serif;
     font-size: 40px;
 }
 
 .prj2-info{
-    padding: 0 0 0 50px;
-    width: 65%;
     font-size: 18px;
     font-family: 'Nunito', sans-serif;
 }
 
 .prj2-btn{
-    margin: 0 0 0 50px;
     border: solid black;
     border-radius: 24px;
     font-size: 18px;
@@ -199,39 +211,39 @@ hr{
 
 .project-3 {
     display: flex;
-    height: 20rem;
+    height: 30rem;
     width: 100%;
     padding-top: 5rem;
 }
 
-.left-side3 {
+.left-side3-container {
     background-color: rgb(255, 255, 255);
-    width: 50%;
-    height: 100%;
     border-radius: 24px 0px 0px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side3 {
+    width: 70%;
 }
 
 .right-side3 {
-    width: 50%;
-    height: 100%;
     border-radius: 0px 24px 24px 0px;
 }
 
 .prj3-title{
-    padding: 90px 0 0 50px;
     font-family: 'Playfair Display', serif;
     font-size: 40px;
 }
 
 .prj3-info{
-    padding: 0 0 0 50px;
-    width: 65%;
     font-size: 18px;
     font-family: 'Nunito', sans-serif;
 }
 
 .prj3-btn{
-    margin: 0 0 0 50px;
     border: solid black;
     border-radius: 24px;
     font-size: 18px;
